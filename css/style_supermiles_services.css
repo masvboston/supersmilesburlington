@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* 
+CSS Document
+Super Smiles Services Menu 
+*/
+
+ul#services-menu {
+	display: block;
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 40px;
+	position: relative;
+		left: -50px;
+	width: 100%;
+}
+ul#services-menu li {
+    list-style-type: none;
+    display: block;
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+}
+ul#services-menu li a {
+    color: #fff;
+    background-color: #5C5C5C;
+	border: #F78C26 solid 1px;
+	border-left: 0px;
+	border-radius: 0px 5px 5px 0px;
+		-moz-border-radius: 0px 5px 5px 0px;
+		-ms-border-radius: 0px 5px 5px 0px;
+		-o-border-radius: 0px 5px 5px 0px;
+		-webkit-border-radius: 0px 5px 5px 0px;
+    display: block;
+	clear: both;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin: 0px;
+	margin-bottom: 2px;
+	padding: 4px 0px 4px 50px;
+	text-align: left;
+	text-decoration: none;
+	width: 50%;
+}
+ul#services-menu li.top-level a{
+	font-size:14px;
+}
+ul#services-menu li a:hover {
+	background-color: #F78C26;
+	width: 51%;
+	border-radius: 0px 5px 5px 0px;
+		-moz-border-radius: 0px 5px 5px 0px;
+		-ms-border-radius: 0px 5px 5px 0px;
+		-o-border-radius: 0px 5px 5px 0px;
+		-webkit-border-radius: 0px 5px 5px 0px;
+}
+ul#services-menu li.on a{
+    background-color: #F78C26;
+	width: 51%;
+	border-radius: 0px 5px 5px 0px;
+		-moz-border-radius: 0px 5px 5px 0px;
+		-ms-border-radius: 0px 5px 5px 0px;
+		-o-border-radius: 0px 5px 5px 0px;
+		-webkit-border-radius: 0px 5px 5px 0px;
+}
+#main-content img.six-month-smile {
+	width: 355px;
+}
+ul#more-services {
+	margin-top: 0px;
+}
+ul#more-services li a{
+	color: #5C5C5C;
+	padding-bottom: 20px;
+	text-decoration: underline;
+}
+ul#more-services li a:hover{
+	color: #F78C26;
+	text-decoration: underline;
+}
+ul#more-services li a:active{
+	color: #F78C26;
+	text-decoration: underline;
+}

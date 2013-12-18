@@ -1,0 +1,444 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url(../images/universal/background/pattern3_2000x5.png);
+	background-position: center;
+	background-repeat: repeat;
+	background-color: #CDD85F;
+	background-size: 2000px;
+	font-family: 'Oxygen', sans-serif;
+	
+}
+h1 {
+	color: #F78C26;
+	font-weight: 700;
+	font-size: 35px;
+	padding-bottom: 25px;
+}
+h2 {
+	color: #F78C26;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: .3px;
+	line-height: 1.8em;
+	padding-top: 20px;
+}
+h3 {
+	color: #5C5C5C;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: .3px;
+	line-height: 1.8em;
+	padding-bottom: 20px;
+}
+h4 {
+	clear: both;
+	color: #C3D600;
+	font-weight: 700;
+	font-size: 17px;
+	letter-spacing: .5px;
+	padding-top: 10px;
+	text-align: center;
+	text-decoration: none;	
+}
+h5 {
+	color: #FFF;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .5px;
+	line-height: 1.4em;
+	padding-bottom: 0px;
+	text-align: center;
+}
+p {
+	color: #5C5C5C;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.8em;
+	padding-bottom: 20px;
+}
+ul {
+	color: #5C5C5C;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.8em;
+	padding-bottom: 20px;
+	list-style: outside;
+	padding-left: 17px;
+	margin-top: -15px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+#wrapper {
+	background-color: #FFF;
+	margin: 0px auto;
+	width: 1024px;
+	box-shadow: 0px 0px 8px #666;
+		-moz-box-shadow: 0px 0px 8px #666;
+		-ms-box-shadow: 0px 0px 8px #666;
+		-o-box-shadow: 0px 0px 8px #666;
+		-webkit-box-shadow: 0px 0px 8px #666;
+}
+
+	header {
+		width: 100%;
+	}
+	
+		#logo {
+			float: left;
+			display: inline-block;
+			position: absolute;
+				top: 0px;
+			width: 455px;
+			margin-top: 0px;
+			margin-left: 18px;
+			z-index: 8;
+		}
+		
+		nav {
+			background-color: #5C5C5C;
+			height: 55px;
+			width: 100%;
+		}
+		
+			.main-nav, .active {
+				color: #FFF;
+				display: inline-block;
+				font-weight: 400;
+				font-size: 12.5px;
+				height: 23px;
+				letter-spacing: 1px;
+				padding: 26px 14px 8px 14px;
+				position: relative;
+					left: 475px;
+				text-align: center;
+			}
+			a .main-nav {
+				color: #FFF;
+				text-decoration: none;
+				margin-left:-4px;
+			}
+			a:hover .main-nav {
+				background-color: #F78C26;
+				text-decoration:none;
+			}
+			a .active {
+				color: #FFF;
+				background-color: #F78C26;
+				text-decoration: none;
+			} 
+			
+		#slideshow {
+			background-color: #5C5C5C;
+			height:440px;
+			width:1024px;
+		}
+		
+		#bar {
+			background-color: #5C5C5C;
+			display: block;
+			clear: both;
+			height: 55px;
+			width: 100%;
+			text-align: center;
+		}
+		#bar p {
+			color: #FFF;
+			display: inline-block;
+			font-weight: 400;
+			font-size: 13.5px;
+			letter-spacing:.5px;
+			padding: 15px 3px 0px 3px;
+		}
+		#bar span {
+			color: #F78C26;
+		}
+		#bar p a {
+			color: #FFF;
+			text-decoration: none;
+		}
+		#bar p a:hover {
+			color: #FFF;
+			text-decoration: underline;
+		}
+		#bar p a:active {
+			color: #FFF;
+			text-decoration: underline;
+		}
+		
+	#content-area {
+		clear: both;
+		display: block;
+		margin: 50px;
+	}
+		#main-content {
+			clear:left;
+			display: block;
+			float: left;
+			width: 580px;
+			margin-bottom: 50px;
+		}
+		#main-content h2 {
+			font-size: 20px;
+			padding-top: 40px;
+		}
+	
+		#main-content ul li span.bold {
+			font-weight: 700;
+			padding-right: 6px;
+		}
+		#main-content p a {
+			color: #5C5C5C;
+			text-decoration: underline;
+		}
+		#main-content p a:hover {
+			color: #F78C26;
+			text-decoration: underline;
+		}
+		#main-content p a:active {
+			color: #F78C26;
+			text-decoration: underline;
+		}
+		#main-content img {
+			margin-bottom: 20px;
+			margin-top: 20px;
+			width: 100%;
+		}
+		#main-content h2 {
+			padding-top: 10px;
+		}
+		#main-content h3.tagline{
+			font-size: 16px;
+			color: #F78C26;
+		}
+		#contact-us .tab {
+			display: inline-block;
+			width: 135px;
+		}
+		#main-content .large-map {
+				clear: both;
+				display: block;
+				background-color: #F0F0F0;
+				border: #F0F0F0 solid 10px;
+				margin-top: 5px;
+				padding: 5px;
+				text-align: center;
+			}
+
+		aside{
+			display: block;
+			float: right;	
+			margin-bottom: 40px;
+			margin-right: 15px;
+			margin-top: 0px;
+			width: 255px;
+		}
+		
+			#map {
+				clear: both;
+				display: block;
+				background-color: #5C5C5C;
+				border: #5C5C5C solid 10px;
+				padding-bottom: 10px;
+				width: 100%;
+			}
+			#google-map {
+				background-color: #F0F0F0;
+				margin-bottom: 10px;
+				text-align: center;
+				padding-bottom: 5px;
+				font-size: 13px;
+			}
+			#map h4 {
+				clear: both;
+				color: #C3D600;
+				display: block;
+				padding-bottom: 5px;
+			}
+			#map h5 {
+				clear:both;	
+				color: #FFF;
+				display: block;
+				padding-bottom: 0px;
+			}
+			#map a h5 {
+				text-decoration: none;
+			}
+			#map a:hover h5 {
+				text-decoration: underline;
+			}
+			#map a:active h5 {
+				text-decoration: underline;
+			}
+			
+			#services-feature {
+				clear: both;
+				background-color: #5C5C5C;
+				border: #5C5C5C solid 10px;
+				display: block;
+				margin-top: 6px;
+				padding-bottom: 10px;
+				text-decoration: none;
+				width: 100%;
+			}
+			a #services-feature img {
+				clear: both;
+				display: block;
+				width: 100%;
+				height: 100%;
+				margin-bottom: 10px;
+			}
+			a #services-feature h4 {
+				clear: both;
+				color: #C3D600;
+				display: block;
+				padding-bottom: 5px;
+			}
+			a:hover #services-feature h4 {
+				color: #FFF;
+				text-decoration: none;
+			}
+			
+			#appointment {
+				clear: both;
+				background-color: #5C5C5C;
+				border: #5C5C5C solid 10px;
+				display: block;
+				margin-top: 6px;
+				padding-bottom: 10px;
+				text-decoration: none;
+				width: 100%;
+			}
+			#appointment h4 {
+				clear: both;
+				/*
+				color: #C7D500;
+				*/
+				color: #C3D600;
+				display: block;
+				padding-bottom: 5px;
+			}
+			#appointment h5 {
+				clear: both;
+				color: #FFF;
+				display: block;
+				font-size: 14px;
+				font-weight: 400;
+				letter-spacing: .5px;
+				line-height: 1.4em;
+				padding-bottom: 0px;
+				text-align: center;
+			}
+			#appointment h5 a {
+				color: #FFF;
+				text-decoration: none;
+			}
+			#appointment h5 a:hover {
+				color: #FFF;
+				text-decoration: underline;
+			}
+			#appointment h5 a:active {
+				color: #FFF;
+				text-decoration: underline;
+			}
+			
+			#member-logos {
+				clear: both;
+				background-color: #5C5C5C;
+				border: #5C5C5C solid 10px;
+				display: block;
+				margin-top: 6px;
+				text-align: center;
+				width: 100%;
+			}
+			#member-logos h4 {
+				padding-bottom: 10px;
+			}
+			#member-logos img {
+				width: 150px;
+				padding-top: 15px;
+			}
+			#member-logos h5 {
+				clear: both;
+				color: #FFF;
+				display: block;
+				font-size: 14px;
+				font-weight: 400;
+				letter-spacing: .5px;
+				line-height: 1.4em;
+				padding-bottom: 15px;
+				padding-top: 10px;
+				text-align: center;
+			}
+			#member-logos a h5 {
+				color: #FFF;
+				text-decoration: none;
+			}
+			#member-logos a:hover h5 {
+				color: #FFF;
+				text-decoration: underline;
+			}
+			#member-logos a:active h5  {
+				color: #FFF;
+				text-decoration: underline;
+			}
+	
+	footer {
+		background-color: #F78C26;
+		border-top: 5px solid #5C5C5C;
+		clear: both;
+		display: block;
+		height: 255px;
+		max-width: 100%;
+		min-width: 100%;
+		padding-top: 25px;
+	}
+	footer #contact-info, #business-hours, #menu {
+		display: inline-block;
+		float: left;
+		padding-left: 50px;
+		width: 290px;
+	}
+	footer p {
+		color: #FFF;
+		line-height: 1.4em;
+	}
+		#contact-info p a {
+			color: #FFF;
+		}
+		#contact-info p a:hover {
+			text-decoration: underline;
+		}
+		#contact-info p a:active {
+			text-decoration: underline;
+		}
+		#business-hours .tab {
+			display: inline-block;
+			width: 110px;
+		}
+		#menu ul {
+			margin-left: -18px;
+		}
+		#menu ul li {
+			color: #FFF;
+			font-weight: 400;
+			font-size: 15px;
+			letter-spacing: .5px;
+			line-height: 1.4em;
+			list-style: inside;
+		}
+		#menu ul a li {
+			color: #FFF;
+		}
+		#menu ul a:hover li {
+			text-decoration: underline;
+		}
+		#menu ul a:active li {
+			text-decoration: underline;
+		}
