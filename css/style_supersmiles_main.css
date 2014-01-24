@@ -291,7 +291,6 @@ a:hover {
 				clear: both;
 				display: block;
 				width: 100%;
-				height: 100%;
 				margin-bottom: 10px;
 			}
 			a #services-feature h4 {
@@ -317,9 +316,6 @@ a:hover {
 			}
 			#appointment h4 {
 				clear: both;
-				/*
-				color: #C7D500;
-				*/
 				color: #C3D600;
 				display: block;
 				padding-bottom: 5px;
@@ -361,8 +357,8 @@ a:hover {
 				padding-bottom: 10px;
 			}
 			#member-logos img {
-				width: 150px;
 				padding-top: 15px;
+				width: 150px;
 			}
 			#member-logos h5 {
 				clear: both;
@@ -395,8 +391,7 @@ a:hover {
 		clear: both;
 		display: block;
 		height: 255px;
-		max-width: 100%;
-		min-width: 100%;
+		width: 100%;
 		padding-top: 25px;
 	}
 	footer #contact-info, #business-hours, #menu {
@@ -424,6 +419,7 @@ a:hover {
 		}
 		#menu ul {
 			margin-left: -18px;
+			margin-top: 2px;
 		}
 		#menu ul li {
 			color: #FFF;
