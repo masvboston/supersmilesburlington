@@ -210,6 +210,10 @@ a:hover {
 			margin-top: 20px;
 			width: 100%;
 		}
+		#head-shot img{
+			width: 200px;
+		}
+		
 		#main-content h2 {
 			padding-top: 10px;
 		}
