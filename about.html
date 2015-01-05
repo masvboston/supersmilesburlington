@@ -7,27 +7,31 @@
 <meta content="Learn about Super Smiles, Dr. Miller, and staff." name="description">
     <title>About Super Smiles Family Dentistry: Meet Dr. Miller, Meet the Staff</title>
     
-    <!-- jquery -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    
-    <!-- plugin -->
-    <script type="text/javascript" src='js/jquery.cycle.all.js'></script>
- 	<script>
-    $(document).ready(function() {
-		//$('#fade').cycle(); 
-        $('#slideshow').cycle({ 
-    		fx:    'fade', 
-    		sync:  false, 
-    		delay: 1000 
-		});
-    });     
-    </script>
-    
     <link href="css/reset.css" rel="stylesheet" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css' lang="english"/>
     <link href="css/style_supersmiles_main.css" rel="stylesheet" type="text/css" lang="english"/>
     <link href="css/style_supersmiles_hkdesign.css" rel="stylesheet" type="text/css" lang="english"/>
-
+    
+<!-- Lightbox2 PhotoGallery - source: http://lokeshdhakar.com/projects/lightbox2/ -->
+    <link href="js_lightbox/css/lightbox.css" rel="stylesheet" />
+    <script type="text/javascript" src="js_lightbox/js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js_lightbox/js/lightbox.min.js"></script>
+        
+<!-- SlideShow -->
+    <!-- <script type="text/javascript" src="js_slideshow/jquery.js"></script> -->
+    <script type="text/javascript" src='js_slideshow/jquery.cycle.all.js'></script>
+    <!-- SlideShow script activation -->
+ 	<script>
+        $(document).ready(function() {
+            //$('#fade').cycle(); 
+            $('#slideshow').cycle({ 
+                fx:    'fade', 
+                sync:  false, 
+                delay: 1000, 
+                })
+        });     
+    </script>
+    
 </head>
 
 <body>
