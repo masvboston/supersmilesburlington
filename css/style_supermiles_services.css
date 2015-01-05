@@ -43,7 +43,7 @@ ul#services-menu li a {
 	text-decoration: none;
 	width: 50%;
 }
-ul#services-menu li.top-level a{
+ul#services-menu li.top-level a {
 	font-size:14.5px;
 }
 ul#services-menu li a:hover {
@@ -55,7 +55,7 @@ ul#services-menu li a:hover {
 		-webkit-border-radius: 0px 5px 5px 0px;
 	width: 51%;
 }
-ul#services-menu li.on a{
+ul#services-menu li.on a {
     background-color: #F78C26;
 	border-radius: 0px 5px 5px 0px;
 		-moz-border-radius: 0px 5px 5px 0px;
@@ -70,16 +70,20 @@ ul#services-menu li.on a{
 ul#more-services {
 	margin-top: 0px;
 }
-ul#more-services li a{
+ul#more-services li a {
 	color: #5C5C5C;
 	padding-bottom: 20px;
 	text-decoration: underline;
 }
-ul#more-services li a:hover{
+ul#more-services li a:hover {
 	color: #F78C26;
 	text-decoration: underline;
 }
-ul#more-services li a:active{
+ul#more-services li a:active {
 	color: #F78C26;
 	text-decoration: underline;
+}
+
+#service-main h1 {
+	padding-bottom: 20px;
 }

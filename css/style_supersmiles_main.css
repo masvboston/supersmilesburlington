@@ -13,55 +13,53 @@ body {
 h1 {
 	color: #F78C26;
 	font-weight: 700;
-	font-size: 35px;
-	padding-bottom: 25px;
+	font-size: 30px;
 }
 h2 {
 	color: #F78C26;
-	font-weight: 700;
 	font-size: 20px;
-	letter-spacing: .3px;
+	font-weight: 700;
+	letter-spacing: .05em;
 	line-height: 1.8em;
-	padding-top: 20px;
 }
 h3 {
 	color: #5C5C5C;
 	font-weight: 700;
-	font-size: 16px;
-	letter-spacing: .3px;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: .03em;
 	line-height: 1.8em;
 	padding-bottom: 20px;
 }
 h4 {
 	clear: both;
 	color: #C3D600;
-	font-weight: 700;
 	font-size: 17px;
-	letter-spacing: .5px;
+	font-weight: 700;
+	letter-spacing: .03em;
 	padding-top: 10px;
 	text-align: center;
 	text-decoration: none;	
 }
 h5 {
 	color: #FFF;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 400;
-	letter-spacing: .5px;
+	letter-spacing: .03em;
 	line-height: 1.4em;
-	padding-bottom: 0px;
 	text-align: center;
 }
 p {
 	color: #5C5C5C;
+	font-size: 14px;
 	font-weight: 400;
-	font-size: 15px;
-	line-height: 1.8em;
+	line-height: 1.7em;
 	padding-bottom: 20px;
 }
 ul {
 	color: #5C5C5C;
-	font-weight: 400;
 	font-size: 15px;
+	font-weight: 400;
 	line-height: 1.8em;
 	padding-bottom: 20px;
 	list-style: outside;
@@ -74,7 +72,6 @@ a {
 a:hover {
 	text-decoration: none;
 }
-
 #wrapper {
 	background-color: #FFF;
 	margin: 0px auto;
@@ -89,16 +86,16 @@ a:hover {
 	header {
 		width: 100%;
 	}
-	
-		#logo {
+			
+		a #logo {
 			float: left;
 			display: inline-block;
 			position: absolute;
 				top: 0px;
 			width: 455px;
 			margin-top: 0px;
-			margin-left: 18px;
-			z-index: 8;
+			margin-left: 12px;
+			z-index: 800;
 		}
 		
 		nav {
@@ -111,12 +108,12 @@ a:hover {
 				color: #FFF;
 				display: inline-block;
 				font-weight: 400;
-				font-size: 12.5px;
+				font-size: 14px;
 				height: 23px;
-				letter-spacing: 1px;
-				padding: 26px 14px 8px 14px;
+				letter-spacing: .05em;
+				padding: 26px 12px 8px 12px;
 				position: relative;
-					left: 475px;
+					left: 480px;
 				text-align: center;
 			}
 			a .main-nav {
@@ -132,8 +129,40 @@ a:hover {
 				color: #FFF;
 				background-color: #F78C26;
 				text-decoration: none;
-			} 
+			}
 			
+			#call {
+			background-color: #F78C26;
+			display: block;
+			float: left;
+			position: relative;
+				top: 350px;
+				left: 56px;
+			padding-top: 5px;
+			text-align: center;
+			height: 42px;
+			width: 300px;
+			z-index: 800;
+			box-shadow: #000 6px 5px 14px;
+				-o-box-shaddow: #000 6px 5px 14px;
+				-moz-box-shaddow: #000 6px 5px 14px;
+				-ms-box-shaddow: #000 6px 5px 14px;
+			border-radius: 10px;
+				-o-border-radius: 10px;
+				-moz-border-radius: 10px;
+				-ms-border-radius: 10px;
+		}
+		#call h3{
+			color: #FFF;
+			font-size: 20px;
+		}
+		#call .phone{
+			font-size: 20px;
+			font-weight: 700;
+			letter-spacing: .07em;
+			padding-left: 10px;
+		}
+		
 		#slideshow {
 			background-color: #5C5C5C;
 			height:440px;
@@ -152,8 +181,7 @@ a:hover {
 			color: #FFF;
 			display: inline-block;
 			font-weight: 400;
-			font-size: 13.5px;
-			letter-spacing:.5px;
+			letter-spacing: .03em;
 			padding: 15px 3px 0px 3px;
 		}
 		#bar span {
@@ -210,20 +238,33 @@ a:hover {
 			margin-top: 20px;
 			width: 100%;
 		}
-		#head-shot img{
-			width: 200px;
-		}
-		
 		#main-content h2 {
 			padding-top: 10px;
 		}
 		#main-content h3.tagline{
-			font-size: 16px;
 			color: #F78C26;
+			letter-spacing: .02em;
 		}
+		
+		#main-content .padding {
+			padding-top: 30px;
+		}
+		#about img {
+			width: 320px;
+		}
+		#about img.dr-miller {
+			width: 390px;
+		}
+		
 		#contact-us .tab {
 			display: inline-block;
 			width: 135px;
+		}
+		#contact-us h3 {
+			margin-bottom: -18px;
+		}
+		#contact-us .bold {
+			font-weight: bold;
 		}
 		#main-content .large-map {
 				clear: both;
@@ -237,7 +278,7 @@ a:hover {
 
 		aside{
 			display: block;
-			float: right;	
+			float: right;
 			margin-bottom: 40px;
 			margin-right: 15px;
 			margin-top: 0px;
@@ -248,7 +289,7 @@ a:hover {
 				clear: both;
 				display: block;
 				background-color: #5C5C5C;
-				border: #5C5C5C solid 10px;
+				border: #5C5C5C solid 7px;
 				padding-bottom: 10px;
 				width: 100%;
 			}
@@ -263,12 +304,20 @@ a:hover {
 				clear: both;
 				color: #C3D600;
 				display: block;
+				font-family: 'Oxygen', sans-serif;
+				font-size: 17px;
+				font-weight: 700;
+				letter-spacing: .03em;
 				padding-bottom: 5px;
 			}
 			#map h5 {
 				clear:both;	
 				color: #FFF;
 				display: block;
+				font-family: 'Oxygen', sans-serif;
+				font-size: 15px;
+				font-weight: 400;
+				letter-spacing: .03em;
 				padding-bottom: 0px;
 			}
 			#map a h5 {
@@ -281,10 +330,50 @@ a:hover {
 				text-decoration: underline;
 			}
 			
+			/* Office Photo Tour */
+			#photo-tour {
+				clear: both;
+				background-color: #C3D600;
+				
+				border: #C3D600 solid 7px;
+				/*
+				border: #5C5C5C solid 7px;
+				*/
+				
+				display: block;
+				margin-top: 6px;
+				padding-bottom: 26px;
+				padding-top: 11px;
+				text-align: center;
+				text-decoration: none;
+				width: 100%;
+				height:60px;
+			}
+			#photo-tour a h4{
+				color: #5C5C5C;
+				font-family: 'Oxygen', sans-serif;
+				font-size: 24px;
+				font-weight: 700;
+				letter-spacing: .02em;
+				padding-top: 10px;
+				padding-bottom: 7px;
+				text-align: center;
+				text-decoration: none;	
+			}
+			#photo-tour a h5{
+				color: #fff;
+				font-family: 'Oxygen', sans-serif;		
+				font-weight: 400;
+				font-size: 15px;
+				letter-spacing: .02em;
+				text-align: center;
+				text-decoration: none;				
+			}
+			
 			#services-feature {
 				clear: both;
 				background-color: #5C5C5C;
-				border: #5C5C5C solid 10px;
+				border: #5C5C5C solid 7px;
 				display: block;
 				margin-top: 6px;
 				padding-bottom: 10px;
@@ -301,6 +390,10 @@ a:hover {
 				clear: both;
 				color: #C3D600;
 				display: block;
+				font-family: 'Oxygen', sans-serif;
+				font-size: 17px;
+				font-weight: 700;
+				letter-spacing: .05em;
 				padding-bottom: 5px;
 			}
 			a:hover #services-feature h4 {
@@ -311,7 +404,7 @@ a:hover {
 			#appointment {
 				clear: both;
 				background-color: #5C5C5C;
-				border: #5C5C5C solid 10px;
+				border: #5C5C5C solid 7px;
 				display: block;
 				margin-top: 6px;
 				padding-bottom: 10px;
@@ -322,19 +415,31 @@ a:hover {
 				clear: both;
 				color: #C3D600;
 				display: block;
-				padding-bottom: 5px;
+				font-family: 'Oxygen', sans-serif;
+				font-size: 17px;
+				font-weight: 700;
+				letter-spacing: .05em;
+				padding-bottom: 12px;
 			}
 			#appointment h5 {
 				clear: both;
 				color: #FFF;
 				display: block;
-				font-size: 14px;
+				font-family: 'Oxygen', sans-serif;
+				font-size: 15px;
 				font-weight: 400;
-				letter-spacing: .5px;
-				line-height: 1.4em;
+				letter-spacing: .03em;
 				padding-bottom: 0px;
+				padding-top: 12px;
 				text-align: center;
 			}
+			#appointment h5 .phone{
+				color: #FFF;
+				font-family: 'Oxygen', sans-serif;
+				font-size: 24px;
+				font-weight: 400;
+				letter-spacing: .03em;
+			}		
 			#appointment h5 a {
 				color: #FFF;
 				text-decoration: none;
@@ -351,13 +456,17 @@ a:hover {
 			#member-logos {
 				clear: both;
 				background-color: #5C5C5C;
-				border: #5C5C5C solid 10px;
+				border: #5C5C5C solid 7px;
 				display: block;
 				margin-top: 6px;
 				text-align: center;
 				width: 100%;
 			}
 			#member-logos h4 {
+				font-family: 'Oxygen', sans-serif;
+				font-size: 17px;
+				font-weight: 700;
+				letter-spacing: .05em;
 				padding-bottom: 10px;
 			}
 			#member-logos img {
@@ -368,10 +477,10 @@ a:hover {
 				clear: both;
 				color: #FFF;
 				display: block;
-				font-size: 14px;
+				font-family: 'Oxygen', sans-serif;
+				font-size: 15px;
 				font-weight: 400;
-				letter-spacing: .5px;
-				line-height: 1.4em;
+				letter-spacing: .03em;
 				padding-bottom: 15px;
 				padding-top: 10px;
 				text-align: center;
@@ -388,15 +497,33 @@ a:hover {
 				color: #FFF;
 				text-decoration: underline;
 			}
+			
 	
 	footer {
 		background-color: #F78C26;
-		border-top: 5px solid #5C5C5C;
 		clear: both;
 		display: block;
-		height: 255px;
+		height: 310px;
 		width: 100%;
-		padding-top: 25px;
+	}
+	#social-icons {
+		background-color: #5C5C5C;
+		padding: 10px 50px;
+		padding-left: 35px;
+		margin-bottom: 25px;
+	}
+	#social-icons a img {
+		border: #5C5C5C solid 1px;
+		border-radius: 4px;
+				-o-border-radius: 4px;
+				-moz-border-radius: 4px;
+				-ms-border-radius: 4px;
+		display: inline;
+		margin-left: 13px;
+		width: 35px;
+	}
+	#social-icons a:hover img {
+		border: #F78C26 solid 1px;
 	}
 	footer #contact-info, #business-hours, #menu {
 		display: inline-block;
@@ -429,7 +556,7 @@ a:hover {
 			color: #FFF;
 			font-weight: 400;
 			font-size: 15px;
-			letter-spacing: .5px;
+			letter-spacing: .03em;
 			line-height: 1.4em;
 			list-style: inside;
 		}
