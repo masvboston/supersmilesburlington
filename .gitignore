@@ -1,3 +1,4 @@
 # Ignore these files when adding.
 .DS_Store
 *.db
+*~
