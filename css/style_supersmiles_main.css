@@ -2,10 +2,13 @@
 /* CSS Document */
 
 body {
+    /*
 	background-image: url(../images/universal/background/pattern3_2000x5.png);
 	background-position: center;
 	background-repeat: repeat;
-	background-color: #CDD85F;
+     background-color: #CDD85F;
+     */
+	background-color: #f9fffa;
 	background-size: 2000px;
 	font-family: 'Oxygen', sans-serif;
 	
