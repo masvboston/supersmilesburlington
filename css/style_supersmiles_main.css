@@ -16,11 +16,11 @@ body {
 h1 {
 	color: #F78C26;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 34px;
 }
 h2 {
 	color: #F78C26;
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 700;
 	letter-spacing: .05em;
 	line-height: 1.8em;
@@ -28,7 +28,7 @@ h2 {
 h3 {
 	color: #5C5C5C;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: 700;
 	letter-spacing: .03em;
 	line-height: 1.8em;
@@ -37,7 +37,7 @@ h3 {
 h4 {
 	clear: both;
 	color: #C3D600;
-	font-size: 17px;
+	font-size: 23px;
 	font-weight: 700;
 	letter-spacing: .03em;
 	padding-top: 10px;
@@ -46,7 +46,7 @@ h4 {
 }
 h5 {
 	color: #FFF;
-	font-size: 15px;
+	font-size: 19px;
 	font-weight: 400;
 	letter-spacing: .03em;
 	line-height: 1.4em;
@@ -54,14 +54,14 @@ h5 {
 }
 p {
 	color: #5C5C5C;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 1.7em;
 	padding-bottom: 20px;
 }
 ul {
 	color: #5C5C5C;
-	font-size: 15px;
+	font-size: 19px;
 	font-weight: 400;
 	line-height: 1.8em;
 	padding-bottom: 20px;
@@ -76,7 +76,8 @@ a:hover {
 	text-decoration: none;
 }
 #wrapper {
-	background-color: #FFF;
+	background-color: white;
+    z-index: -100;
 	margin: 0px auto;
 	width: 1024px;
 	box-shadow: 0px 0px 8px #666;
@@ -95,9 +96,9 @@ a:hover {
 			display: inline-block;
 			position: absolute;
 				top: 0px;
-			width: 510px;
+			width: 500px;
 			margin-top: 0px;
-			margin-left: 12px;
+			margin-left: 0px;
 			z-index: 800;
 		}
 		
@@ -111,13 +112,14 @@ a:hover {
 				color: #FFF;
 				display: inline-block;
 				font-weight: 400;
-				font-size: 14px;
-				height: 23px;
+				font-size: 17px;
+				height: 30px;
 				letter-spacing: .05em;
-				padding: 26px 12px 8px 12px;
+				padding: 20px 8px 8px 8px;
 				position: relative;
-					left: 480px;
+					left: 455px;
 				text-align: center;
+                z-index: 500;
 			}
 			a .main-nav {
 				color: #FFF;
@@ -135,32 +137,33 @@ a:hover {
 			}
 			
 			#call {
-			background-color: #F78C26;
-			display: block;
-			float: left;
-			position: relative;
-				top: 350px;
-				left: 56px;
-			padding-top: 5px;
-			text-align: center;
-			height: 42px;
-			width: 300px;
-			z-index: 800;
-			box-shadow: #000 6px 5px 14px;
-				-o-box-shaddow: #000 6px 5px 14px;
-				-moz-box-shaddow: #000 6px 5px 14px;
-				-ms-box-shaddow: #000 6px 5px 14px;
-			border-radius: 10px;
-				-o-border-radius: 10px;
-				-moz-border-radius: 10px;
-				-ms-border-radius: 10px;
-		}
+                background-color: #F78C26;
+                border: 2px solid white;
+                display: block;
+                float: left;
+                position: relative;
+                    top: 350px;
+                    left: 56px;
+                text-align: center;
+                padding-bottom: 10px;
+                height: 42px;
+                width: 360px;
+                z-index: 800;
+                box-shadow: white 0px 0px 20px;
+                    -o-box-shaddow: #000 6px 5px 14px;
+                    -moz-box-shaddow: #000 6px 5px 14px;
+                    -ms-box-shaddow: #000 6px 5px 14px;
+                border-radius: 4px;
+                    -o-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    -ms-border-radius: 4px;
+            }
 		#call h3{
 			color: #FFF;
-			font-size: 20px;
+			font-size: 30px;
 		}
 		#call .phone{
-			font-size: 20px;
+			font-size: 30px;
 			font-weight: 700;
 			letter-spacing: .07em;
 			padding-left: 10px;
@@ -176,16 +179,18 @@ a:hover {
 			background-color: #5C5C5C;
 			display: block;
 			clear: both;
-			height: 55px;
+			height: 36px;
+			height: 36px;
 			width: 100%;
 			text-align: center;
 		}
 		#bar p {
 			color: #FFF;
 			display: inline-block;
+            font-size: 100%;
 			font-weight: 400;
 			letter-spacing: .03em;
-			padding: 15px 3px 0px 3px;
+			padding: 3px;
 		}
 		#bar span {
 			color: #F78C26;
@@ -206,13 +211,13 @@ a:hover {
 	#content-area {
 		clear: both;
 		display: block;
-		margin: 50px;
+		margin: 26px;
 	}
 		#main-content {
 			clear:left;
 			display: block;
 			float: left;
-			width: 580px;
+			width: 640px;
 			margin-bottom: 50px;
 		}
 		#main-content h2 {
@@ -506,7 +511,7 @@ a:hover {
 		background-color: #F78C26;
 		clear: both;
 		display: block;
-		height: 310px;
+		height: 360px;
 		width: 100%;
 	}
 	#social-icons {
